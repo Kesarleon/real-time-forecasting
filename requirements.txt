@@ -1,7 +1,8 @@
 requests
 pandas
-matplotlib
 scikit-learn
 statsmodels
 streamlit
 yfinance
+plotly
+arch
