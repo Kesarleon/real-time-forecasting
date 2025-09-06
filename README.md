@@ -13,7 +13,9 @@ Este es un panel de control avanzado construido con Streamlit para realizar aná
 - **Predicción de Volatilidad:** Implementa un modelo **GARCH** (Generalized Autoregressive Conditional Heteroskedasticity) para analizar y predecir la volatilidad, un factor clave en la gestión de riesgos.
 - **Backtesting de Estrategias:** Incluye un motor de backtesting para evaluar el rendimiento histórico de una estrategia de trading basada en el **cruce de medias móviles (SMA Crossover)**.
 - **Métricas de Rendimiento (KPIs):** Calcula y muestra métricas clave como el **Retorno Total** y el **Ratio de Sharpe Anualizado** para evaluar la efectividad de la estrategia.
+- **Análisis de Sentimiento (Simulado):** Mide el pulso del mercado analizando el sentimiento de noticias y redes sociales (actualmente simulado con datos de ejemplo).
 - **Visualizaciones Interactivas:** Gráficos dinámicos construidos con **Plotly** que muestran precios históricos, pronósticos, medias móviles y señales de compra/venta en un solo lugar.
+- **Dashboard en Tiempo Real:** Capacidad de actualizar automáticamente todos los análisis a intervalos definidos por el usuario para un seguimiento continuo del mercado.
 - **Interfaz Configurable:** Todos los parámetros de los modelos y del backtesting son completamente configurables a través de una barra lateral intuitiva.
 
 ---
@@ -42,6 +44,7 @@ El rendimiento de esta estrategia se compara con una estrategia pasiva de "Compr
 - **yfinance:** Para la obtención de datos financieros.
 - **statsmodels:** Para el modelo ARIMA.
 - **arch:** Para el modelo GARCH.
+- **textblob:** Para el análisis de sentimiento.
 - **plotly:** Para las visualizaciones interactivas.
 - **scikit-learn:** (Incluido para futuras ampliaciones).
 
