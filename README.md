@@ -75,3 +75,18 @@ El rendimiento de esta estrategia se compara con una estrategia pasiva de "Compr
     ```
 
 La aplicación se abrirá en tu navegador web.
+
+---
+
+## Versión de Demostración para Despliegue
+
+Este repositorio incluye `app_demo.py`, una versión especial del dashboard diseñada para un despliegue sencillo en plataformas como Streamlit Cloud.
+
+**Diferencias Clave:**
+- Utiliza **datos ficticios (dummy data)** generados localmente, por lo que no depende de la API de `yfinance`. Esto asegura que la aplicación esté siempre en línea y sea responsiva.
+- Todas las funcionalidades analíticas y de visualización están presentes, proporcionando una demostración completa de las capacidades del proyecto.
+
+Para ejecutar la versión de demostración localmente:
+```bash
+streamlit run app_demo.py
+```
